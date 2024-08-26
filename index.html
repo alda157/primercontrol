@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Virtual de Fútbol</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#contactanos">Contáctanos</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+        <div class="hero">
+            <img src="principal.jpg" alt="Imagen Principal">
+            <div class="welcome-text">
+                <h1>Bienvenido a la Tienda Virtual de Fútbol</h1>
+                <p>Encuentra la mejor ropa y accesorios para tus partidos y entrenamientos. ¡Equipado para la victoria!</p>
+            </div>
+        </div>
+        <div class="about">
+            <h2>Acerca de Nosotros</h2>
+            <p>Somos especialistas en ropa y accesorios para fútbol, ofreciendo productos de alta calidad para que puedas rendir al máximo en el campo.</p>
+        </div>
+    </section>
+
+    <!-- Productos -->
+    <section id="productos">
+        <h2>Productos</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="camiseta real madrid.webp" alt="Camisa de Fútbol">
+                <h3>Camisa de Fútbol</h3>
+                <p>$40.00</p>
+                <p>Camisa de fútbol con tecnología de absorción de sudor. Ideal para entrenamientos y partidos.</p>
+            </div>
+            <div class="product">
+                <img src="chimpunes.jpg" alt="Zapatos de Fútbol">
+                <h3>Zapatos de Fútbol</h3>
+                <p>$80.00</p>
+                <p>Zapatos de fútbol con suela de alta tracción para un mejor rendimiento en el campo.</p>
+            </div>
+            <div class="product">
+                <img src="balon.png" alt="Balón de Fútbol">
+                <h3>Balón de Fútbol</h3>
+                <p>$25.00</p>
+                <p>Balón de fútbol de calidad profesional, perfecto para entrenamientos y partidos.</p>
+            </div>
+        </div>
+    </section>
+
+   <!-- Contáctanos -->
+<section id="contactanos">
+    <h2>Contáctanos</h2>
+    <div class="contact-container">
+        <div class="contact-info">
+            <h3>Información de Contacto</h3>
+            <p>Para consultas rápidas, puedes enviarnos un correo electrónico o llamarnos.</p>
+            <ul>
+                <li><strong>Email:</strong> contacto@tiendafutbol.com</li>
+                <li><strong>Teléfono:</strong> +51 123456789</li>
+                <li><strong>Dirección:</strong> Calle del Fútbol 123, Ciudad Deportiva, Perú</li>
+            </ul>
+        </div>
+        <div class="contact-form">
+            <h3>Envíanos un Mensaje</h3>
+            <form action="mailto:contacto@tiendafutbol.com" method="post" enctype="text/plain">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="pregunta">Pregunta:</label>
+                <textarea id="pregunta" name="pregunta" rows="6" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+</section>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Tienda Virtual de Fútbol. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
